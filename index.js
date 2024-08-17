@@ -46,7 +46,7 @@ const songList = [
 {
   title: 'Nee-Neeli-Kannullonae',
 
-  artist: 'Gowtham bharadwaj V',
+  artist: 'Gowtham Bharadwaj V',
 
   src: 'Nee-Neeli-Kannullona.mp3',
 
@@ -101,7 +101,7 @@ const songList = [
 {
   title: 'Pirai Thedum Iravile',
 
-  artist: 'Saindhavi, G.V. prakash kumar',
+  artist: 'Saindhavi, G.V. Prakash Kumar',
 
   src: 'Pirai thedum iravile.mp3',
 
@@ -124,7 +124,7 @@ const songList = [
 {
   title: 'Jal Jal Jal oosai',
 
-  artist: 'Aalaap Raju, surmukhi',
+  artist: 'Aalaap Raju, Surmukhi',
 
   src: 'Jal Jal Jal Oosai.mp3',
 
@@ -159,7 +159,7 @@ const songList = [
 {
   title: 'Muzumathi Avalathu',
 
-  artist: 'A.R Rahuman, Srinivas',
+  artist: 'A.R Rahman, Srinivas',
 
   src: 'Muzhumathi Aavlathu.mp3',
 
@@ -170,7 +170,7 @@ const songList = [
 {
   title: 'Irava Pagala ',
 
-  artist: 'Hariharan ,Sujatha',
+  artist: 'Hariharan, Sujatha',
 
   src: 'Irava Pagala.mp3',
 
@@ -181,7 +181,7 @@ const songList = [
 {
   title: 'Vennilave Vennilave',
 
-  artist: 'Hariharan,sadana Sargam',
+  artist: 'Hariharan, Sadana Sargam',
 
   src: 'vennilavae-vennilavae.mp3',
 
