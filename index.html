@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Application</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="music-player">
+
+            <div class="fixed-box" id="fixed-box">
+                
+            </div>
+
+            <nav class="nav-bar">
+                <div class="nav-circle" id="out" style="cursor: pointer;">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+
+                <div class="nav-circle" id="bar" style="cursor: pointer;">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <img src="" alt="logo" id="image" class="song-logo">
+            <marquee class="song-name"></marquee>
+            <p class="song-desc"></p>
+
+            <audio id="audio">
+                <source src="Pularaadha-MassTamilan.org - Copy.mp3" type="audio/mp3"></source>
+            </audio>
+            
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div id="backward"   class="icons"><i class="fa-solid fa-backward-step"></i></div>
+                <div id="play-pause" class="icons center-icon"><i class="fa-solid fa-play" id="ctrl-icon"></i></div>
+                <div id="forward"    class="icons"><i class="fa-solid fa-forward-step"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body> 
+</html>
