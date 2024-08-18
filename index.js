@@ -338,6 +338,21 @@ function updatePlayPauseIcon(){
 
 
 
+audio.addEventListener('ended', () => {
+  currentSongIndex++;
+
+  if (currentSongIndex >= songList.length){
+    currentSongIndex = 0;
+  }
+
+  updateSongInfo();
+  audio.play();
+  updatePlayPauseIcon();
+  
+})
+
+
+
 playPause.addEventListener('click',(e)=>{
   e.preventDefault();
   if(audio.paused){
@@ -440,6 +455,8 @@ document.addEventListener('keydown', (e) => {
     forward.click();
   }
 })
+
+
 
 
 
