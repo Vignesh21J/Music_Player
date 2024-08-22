@@ -45,11 +45,18 @@
 }
 
 .song-logo {
+    margin: 0 auto 15px;
     border: 5px solid rgba(255, 26, 26, 0.2);
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto 15px;
+    width: 250px; 
+    height: 250px;
+    overflow: hidden;
+}
+
+.song-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .song-name {
@@ -153,6 +160,7 @@
 @media (max-width: 768px) {
     .music-player {
         width: 100%;
+        min-height: 100vh;
         padding: 20px;
     }
 
@@ -163,6 +171,7 @@
     }
 
     .song-logo {
+        margin-top: 10rem;
         width: 120px;
         height: 120px;
     }
@@ -213,6 +222,8 @@
 
 @media (max-width: 480px) {
     .music-player {
+        width: 100%;
+        min-height: 100vh;
         padding: 15px;
     }
 
@@ -222,20 +233,21 @@
         line-height: 35px;
     }
 
-    .song-logo {
-        width: 100px;
-        height: 100px;
+    .song-logo{
+        width: 230px;
+        height: 230px;
     }
 
     .song-name {
-        font-size: 14px;
+        margin-top: 8rem;
+        font-size: 20px;
     }
 
     .song-desc {
-        font-size: 11px;
+        font-size: 12px;
     }
 
-    #progress {
+    #progress{
         height: 5px;
         margin: 10px 0;
     }
@@ -246,9 +258,9 @@
         border: 4px solid #fff;
     }
 
-    .icons {
-        width: 30px;
-        height: 30px;
+    .icons{
+        width: 40px;
+        height: 40px;
         margin: 5px;
     }
 
@@ -257,7 +269,7 @@
     }
 
     .fixed-box {
-        height: 65%;
+        height: 85%;
         bottom: -150%;
     }
 
